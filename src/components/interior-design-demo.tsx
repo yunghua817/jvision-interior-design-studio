@@ -130,7 +130,7 @@ export function InteriorDesignDemo() {
         <section className="demo-panel">
           <div className="panel-heading">
             <div>
-              <span>Proposals</span>
+              <span>設計提案</span>
               <h3>新增設計提案</h3>
             </div>
           </div>
@@ -171,7 +171,7 @@ export function InteriorDesignDemo() {
         <section className="demo-panel wide-panel">
           <div className="panel-heading">
             <div>
-              <span>Selection Boards</span>
+              <span>選品確認板</span>
               <h3>選品板與客戶確認</h3>
             </div>
           </div>
@@ -195,7 +195,7 @@ export function InteriorDesignDemo() {
         <section className="demo-panel">
           <div className="panel-heading">
             <div>
-              <span>Procurement</span>
+              <span>採購追蹤</span>
               <h3>採購與到貨追蹤</h3>
             </div>
           </div>
@@ -217,7 +217,7 @@ export function InteriorDesignDemo() {
         <section className="demo-panel">
           <div className="panel-heading">
             <div>
-              <span>Client Dashboard</span>
+              <span>客戶儀表板</span>
               <h3>客戶儀表板紀錄</h3>
             </div>
           </div>

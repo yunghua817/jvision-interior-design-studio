@@ -13,8 +13,8 @@ const features = [
 
 const modules = [
   ["規劃與提案", "從初步需求、空間區域、預算到正式提案一次整理。"],
-  ["Mood Board", "把色彩、材質、家具與燈具組成客戶容易理解的視覺方向。"],
-  ["Selection Board", "將選品依房間與類別分類，支援核准、替換與採購轉換。"],
+  ["風格靈感板", "把色彩、材質、家具與燈具組成客戶容易理解的視覺方向。"],
+  ["選品確認板", "將選品依房間與類別分類，支援核准、替換與採購轉換。"],
   ["採購與供應商", "管理供應商、到貨日、付款資訊與採購進度。"],
   ["客戶協作", "集中留言、核准紀錄、提案與選品狀態，減少來回溝通。"],
   ["財務摘要", "彙整預算、選品金額、已核准項目與採購風險。"],
@@ -41,7 +41,7 @@ export default function Home() {
           <p className="eyebrow">Jvision Interior Design Studio</p>
           <h1>把提案、選品、採購、客戶溝通與 AI 摘要整合成一個設計工作台。</h1>
           <p className="hero-text">
-            Jvision 協助室內設計與軟裝團隊把設計提案、Selection Board、商品資料庫、採購追蹤、客戶儀表板與財務狀態集中管理，
+            Jvision 協助室內設計與軟裝團隊把設計提案、選品確認板、商品資料庫、採購追蹤、客戶儀表板與財務狀態集中管理，
             讓每個空間從概念到交付都有清楚流程。
           </p>
           <div className="hero-actions">
@@ -55,7 +55,7 @@ export default function Home() {
             <span />
             <span />
             <span />
-            <strong>Jvision Design Console</strong>
+            <strong>Jvision 設計工作台</strong>
           </div>
           <div className="preview-board">
             <article className="main-preview">

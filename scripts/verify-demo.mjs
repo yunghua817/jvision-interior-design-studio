@@ -34,7 +34,8 @@ try {
     await page.getByLabel("空間區域").fill("玄關與客廳");
     await page.getByLabel("預算金額").fill("680000");
     await page.getByRole("button", { name: "新增提案" }).click();
-    await page.getByRole("button", { name: "核准提案" }).first().click();
+    await page.getByText("大安住宅全室規劃", { exact: true }).waitFor({ timeout: 10000 });
+    await page.getByRole("button", { name: "核准提案" }).first().click({ force: true });
     await page.getByRole("button", { name: "加入採購" }).first().click();
     await page.getByRole("button", { name: "生成 AI 專案摘要" }).click();
 
