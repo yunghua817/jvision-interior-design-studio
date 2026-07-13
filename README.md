@@ -2,6 +2,10 @@
 
 Jvision 室內設計專案管理平台是一個獨立互動 Demo，將提案、選品板、商品資料庫、採購追蹤、客戶儀表板與 AI 摘要集中在同一個設計工作台。
 
+## 線上 Demo
+
+https://jvision-interior-design-studio.vercel.app
+
 ![Jvision 室內設計專案管理平台海報](assets/poster.png)
 
 ## Demo 功能
